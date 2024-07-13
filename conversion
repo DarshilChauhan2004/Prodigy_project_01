@@ -1,1 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   cout<<"\n===============================================\n"; 
+   cout<<"\n\tcelsiuse to kelvine and fahrenheit\n";
+   cout<<"\n===============================================\n";
 
+   double c=0;
+   float fehrenheit=0.0 ,kelvine=0.0;
+   cout<<"Enter temperature in celsius = ";
+   cin>>c;
+    kelvine = c +273.15; //formula for celsius
+    cout<<"\n\tTemperature in kelvine : "<<kelvine<<endl;
+    fehrenheit = (c*1.8)+32; //formula for feharenheit
+    cout<<"\nTemperature in feharenheit : "<<fehrenheit<<endl;
+   return 0;
+}
